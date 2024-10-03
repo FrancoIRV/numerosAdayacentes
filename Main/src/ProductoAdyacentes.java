@@ -5,7 +5,7 @@ public class ProductoAdyacentes {
 
     public static void run() {
         System.out.println("---COMENZANDO---");
-        long[] prueba = {4,5,0,8,1,7,7};
+        long[] prueba = {};
 
         try {
             listaEstado(prueba);
@@ -18,7 +18,7 @@ public class ProductoAdyacentes {
     public static void listaEstado(long[] listaNumeros) throws Exceptions {
 
         /* si listaNumeros esta vacia o solo con 1 valor lanzamos Exeptions*/
-        if (listaNumeros == null) {
+        if (listaNumeros.length == 0) {
             throw new Exceptions("La lista de numeros no puede ser nula");
         }
         if (listaNumeros.length < 2) {
@@ -27,7 +27,7 @@ public class ProductoAdyacentes {
 
     }
 
-    public static long calcularProductosMaximo(long[] listaNumeros) throws Exceptions {
+    public static long calcularProductosMaximo(long[] listaNumeros)  {
 
         /* Iniciamos con el valor minimo, evitando errores con los negativos */
         long maxProducto = Long.MIN_VALUE;
