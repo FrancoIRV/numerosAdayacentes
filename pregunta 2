@@ -1,0 +1,7 @@
+2)
+casos de prueba:
+- Ingresar una lista vacia (debería regresar un valor nulo)
+- Ingresar una lista extensa con numeros muy grandes o muy pequeños (debería regresar el mayor producto)
+- Ingresar un caso en que el mayor producto se repita (debería regresar uno solo de los datos y no tirar el programa)
+- Ingresar listas de un solo dato (debería manejarse como excepcción)
+
