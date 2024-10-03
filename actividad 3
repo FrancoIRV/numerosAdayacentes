@@ -1,0 +1,11 @@
+Error identificado 1 : lista vacia 
+Gestion error: Primero verificar que la lista no sea nula
+
+Error identificado 2: lista con 1 solo valor
+Gestion error: Crear excepcion indicando que no es posible calcualar
+
+Error identificado 3: Lista muy grande
+Gestion error: mejorar la eficiencia del metodo
+
+Error identificado 4: Producto mayor mas grande que el int maximo permitido
+Gestion error: Uso del tipo "long"
